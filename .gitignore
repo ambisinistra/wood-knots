@@ -1,0 +1,90 @@
+# ==========================================
+# Data & Datasets (Exclusions)
+# ==========================================
+data/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ==========================================
+# ML Artifacts, Runs, & Weights
+# ==========================================
+runs/
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.bin
+*.param
+
+# TensorBoard & Experiment Tracking
+logs/
+tb_logs/
+wandb/
+.comet/
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Jupyter Notebooks & Temporary Files
+# ==========================================
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# ==========================================
+# C++ / CMake (Future Build Files)
+# ==========================================
+cmake-build-*/
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Environment Variables & Credentials
+# ==========================================
+.env
+.env.local

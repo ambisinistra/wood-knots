@@ -1,0 +1,15 @@
+# Deep Learning & Vision
+ultralytics>=8.3.0
+opencv-python>=4.6.0.66
+numpy>=1.23.5
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Export & Inference
+onnx>=1.14.0
+onnxruntime>=1.15.1
+
+# Utilities
+PyYAML>=6.0
+tqdm>=4.65.0
+matplotlib>=3.7.1
